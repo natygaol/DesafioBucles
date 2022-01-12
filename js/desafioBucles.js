@@ -24,10 +24,19 @@ for(let i = 4; i <= 4; i -= 1.5){
 
 let sum = 0;
 
-for(let i = 0; i <= 100; i++){
-  sum += i
-  console.log(i);
+for(let i = 1; i <= 100; i++){
+  sum += i;
 }
+
+console.log(sum);
 
 
 // Factorial -> Multiplicar del 1 al 12 en una variable product
+
+let product = 1;
+
+for(let i = 1; i <= 12; i++){
+  product *= i;
+}
+
+console.log(product);
